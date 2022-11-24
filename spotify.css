@@ -1,0 +1,558 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* nav Section starts */
+.navSec
+{
+    height: 80px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #000000;
+}
+.navArt
+{
+    height: 80px;
+    width: 85%;
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navLogo
+{
+    height: 80px;
+    width: 132px;
+    /* border: 2px solid blue; */
+    padding-top: 18px;
+    fill: #ffffff;
+}
+.navMenu
+{
+    height: 80px;
+    width: 492px;
+    /* border: 2px solid green; */
+}
+.navMenu ul
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.navMenu ul li
+{
+    list-style-type: none;
+    color: #ffffff;
+}
+.navMenu ul li a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 15.3px;
+    font-weight: 700;
+}
+.navMenu ul li a:hover
+{
+    color: #1ed760;
+}
+/* nav Section ends */
+/* home Section starts */
+.homeSec
+{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid orangered; */
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+
+}
+.homArt
+{
+    height: 600px;
+    width: 85%;
+    /* border: 2px solid orange; */
+    margin: 0 auto;
+    display: flex;
+}
+.homediv1
+{
+    height: 600px;
+    width: 40%;
+    /* border: 2px solid olivedrab; */
+    padding-left: 82px;
+    padding-top: 85px;
+}
+.homediv1 svg
+{
+    height: 573px;
+    width: 286px;
+    position: absolute;
+}
+.homediv1 img
+{
+    height: 445px;
+    width: 267px;
+    position: relative;
+    top: 71px;
+    left: 9px;
+}
+.homediv2
+{
+    height: 600px;
+    width: 60%;
+    /* border: 2px solid orchid; */
+}
+.homediv21
+{
+    height: 600px;
+    width: 685px;
+    /* border: 2px solid violet; */
+    padding-top: 180px;
+    padding-right: 15px;
+}
+.homediv21 h1
+{
+    color: white;
+    font-size: 53px;
+    font-weight: 800;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.homediv2Btn
+{
+    width: 188px;
+    height: 48px;
+    border: 2px solid#FFFFFF;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homediv2Btn a
+{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.homediv2Btn:hover
+{
+    width: 194px;
+    height: 50px;
+}
+/* home Section ends */
+/* Four Section starts */
+.fourSec
+{
+    height: 595px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #FFFFFF;
+}
+.fourArt
+{
+    height: 595px;
+    width: 85%;
+    /* border: 2px solid orangered; */
+    margin: 0 auto;
+    padding: 75px 15px;
+}
+.fourArt h2
+{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.fourHeadDiv
+{
+   height: 357px;
+   width: 100%; 
+   /* border: 2px solid purple; */
+   display: flex;
+   align-items: flex-end;
+}
+.fourMainDiv
+{
+    height: 307px;
+    width: 25%;
+    /* border: 2px solid greenyellow; */
+}
+.fourSubDiv1
+{
+    height: 182px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    background-repeat: no-repeat;
+    background-size: 142px 142px;
+    background-position: center top; 
+}
+#fourSubDiv11
+{
+    background-image: url("./fourdiv1.png");
+}
+.fourDivPara1
+{
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    text-align: center; 
+}
+.fourDivPara2
+{
+    font-size: 15.4px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    text-align: center; 
+}
+#fourSubDiv12
+{
+    background-image: url("./fourdiv2.png");
+}
+#fourSubDiv13
+{
+    background-image: url("./fourdiv3.png");
+}
+#fourSubDiv14
+{
+    background-image: url("./fourdiv4.png");
+}
+/* Four Section ends */
+/* TwoLine Section starts */
+.twoLineSec
+{
+    height: 494px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+.twoLineArt
+{
+    height: 494px;
+    width: 85%;
+    /* border: 2px solid salmon; */
+    margin: 0 auto;
+}
+.twoLineDiv
+{
+    height: 494px;
+    width: 100%;
+    /* border: 2px solid orchid; */
+    text-align: center;
+    padding-top: 190px;
+}
+.twoLineDiv h2
+{
+    font-size: 42px;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    letter-spacing: -2px;
+}
+/* TwoLine Section ends */
+/* ques Section starts */
+.quesSec
+{
+    height: 587px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #ffffff;
+}
+.quesArt
+{
+    height: 587px;
+    width: 85%;
+    /* border: 2px solid orange; */
+    margin: 0 auto;
+    padding: 75px 15px;
+}
+.quesDiv
+{
+    height: 46px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    text-align: center;
+    margin-bottom: 72px;
+}
+.quesDiv h2
+{
+    font-size:38px;
+    font-weight: 800;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    letter-spacing: 0px;
+}
+.quesList
+{
+    height: 319px;
+    width: 100%;
+    /* border: 2px solid olivedrab; */
+    list-style-type: none;
+}
+.quesList li
+{
+    height: 78px;
+    width: 100%;
+    /* border: 2px solid orchid; */
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.quesList li:hover
+{
+    /* box-shadow: 2px 2px 10px #919496; */
+    background-color:whitesmoke;
+}
+.quesList li p
+{
+    padding: 15px 32px 32px;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size:15.4px;
+    font-weight: 900px;
+}
+.quesList li summary
+{
+    list-style: none;
+    padding: 26px 28px;
+    cursor: pointer;
+    font-size: 15.5px;
+    font-weight: 800;
+}
+.quesList li summary i
+{
+    float: right;
+}
+.quesList li summary:hover
+{
+    text-decoration: underline;
+}
+/* ques Section ends */
+/* get Section starts */
+.getSec
+{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+.getArt
+{
+    height: 450px;
+    width: 85%;
+    /* border: 2px solid orange; */
+    margin: 0 auto;
+}
+.getDiv
+{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid green; */
+    text-align: center;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.getDiv h2
+{
+    font-size: 79px;
+    padding-top: 150px;
+    margin-bottom: 32px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.getDivBtn
+{
+    height: 48px;
+    width: 100%;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+}
+.getDivInnerBtn
+{
+    height: 48px;
+    width: 188px;
+    background-color: #ffffff;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.getDivInnerBtn a
+{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14.5px;
+    font-weight: 700;
+}
+.getDivInnerBtn:hover
+{
+    height: 52px;
+    width: 190px;
+}
+/* get Section ends */
+/* footer Section starts */
+.footSec
+{
+    height: 530px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: #000000;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.footArt
+{
+    height: 530px;
+    width: 85%;
+    /* border: 2px solid yellow; */
+    margin: 0 auto;
+    padding: 80px 0px 50px;
+}
+.footDiv1
+{
+    height: 346px;
+    width: 100%;
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+}
+.footDivLogo
+{
+    height: 346px;
+    width: 20%;
+    /* border: 2px solid orange; */
+    fill: #ffffff;
+    text-align: center;
+}
+.footDivLogo svg
+{
+    width: 132px;
+    height: 42px;
+}
+.footDivList
+{
+    height: 346px;
+    width: 55%;
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: space-between;
+}
+.footDivList1
+{
+    list-style-type: none;
+}
+.footDivListLi
+{
+    font-size: 12.7px;
+    color: #919496;  
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.footDivList1 li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 2.7;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.footDivList1 li a:hover
+{
+    color: #1ed760;
+}
+.footDivFont
+{
+    height: 346px;
+    width: 35%;
+    /* border: 2px solid purple; */
+    padding-left: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.footDivFont span
+{
+    display: inline-block;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #222326;
+    background-color: #222326;
+    border-radius: 28px;
+    padding-top: 16px;
+    padding-left: 16px;
+    
+}
+.footDivFont span a i
+{
+    height: 24px;
+    width: 24px;
+    color: #ffffff;
+}
+.footDivFont span a i:hover
+{
+    color: #1ed760;
+}
+.footDiv2
+{
+    height: 15px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.footDiv2 a
+{
+    width: 95px;
+    font-size: 11px;
+    color: #919496;
+    text-decoration: none;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+.footDiv2 a:hover
+{
+    color: #1ed760;
+}
+.footDiv3
+{
+    height: 39px;
+    width: 100%;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    color: #919496;
+}
+.footDiv3 ul
+{
+    height: 39px;
+    width: 420px;
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footDiv3 ul li
+{
+    list-style-type: none;
+}
+.footDiv3 ul li a
+{
+    text-decoration: none;
+    color: #919496;
+    font-size: 12px;
+}
+.footDiv3 ul li a:hover
+{
+    color: #1ed760;
+}
+.footDiv3 span
+{
+    height: 39px;
+    width: 102px;
+    /* border: 2px solid red; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+/* footer Section ends */
